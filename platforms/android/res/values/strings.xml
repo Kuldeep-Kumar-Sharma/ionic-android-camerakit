@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">ionic-android-camerakit</string>
+    <string name="url_github">https://github.com/wonderkiln/camerakit-android</string>
+    <string name="url_website">http://camerakit.website</string>
+    <string name="launcher_name">@string/app_name</string>
+    <string name="activity_name">@string/launcher_name</string>
+    <string name="about_dialog_title">About</string>
+    <string name="about_dialog_message">Demo Version: %1$S (%2$d)\nCameraKit Version: %3$S</string>
+    <string name="drawer_open">Open Drawer</string>
+    <string name="drawer_close">Close Drawer</string>
+</resources>

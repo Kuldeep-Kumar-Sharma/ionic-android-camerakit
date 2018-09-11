@@ -1,0 +1,13 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title text-center>
+      Camera Kit Demo App
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+ 
+<ion-content padding text-center class="back">
+  <h3>Click the picture from the camerakit camera!</h3>
+  <img class="img-class-placeholder" src={{image}} style="width : 50%; height : 50%">
+  <img class="img-class" src="./assets/imgs/instagram-logo.svg" style="width : 20% ; height : 20%" (click)="start()" >
+</ion-content>

@@ -1,0 +1,57 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "/Users/a1271241/Documents/IONICApps/ionic-android-camerakit/CamerakitPlugin",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "/Users/a1271241/Documents/IONICApps/ionic-android-camerakit/CamerakitPlugin",
+        "spec": "/Users/a1271241/Documents/IONICApps/ionic-android-camerakit/CamerakitPlugin",
+        "type": "directory"
+      },
+      "/Users/a1271241/Documents/IONICApps/ionic-android-camerakit/node_modules"
+    ]
+  ],
+  "_from": "CamerakitPlugin",
+  "_id": "camerakitplugin@1.0.0",
+  "_inCache": true,
+  "_location": "/camerakitplugin",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "/Users/a1271241/Documents/IONICApps/ionic-android-camerakit/CamerakitPlugin",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "/Users/a1271241/Documents/IONICApps/ionic-android-camerakit/CamerakitPlugin",
+    "spec": "/Users/a1271241/Documents/IONICApps/ionic-android-camerakit/CamerakitPlugin",
+    "type": "directory"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "file:CamerakitPlugin",
+  "_shasum": "3ed654bddd94bd5544241121b70c5782406b6264",
+  "_shrinkwrap": null,
+  "_spec": "/Users/a1271241/Documents/IONICApps/ionic-android-camerakit/CamerakitPlugin",
+  "_where": "/Users/a1271241/Documents/IONICApps/ionic-android-camerakit/node_modules",
+  "author": {
+    "name": "Kuldeep"
+  },
+  "dependencies": {},
+  "description": " CameraKit Implemented for the IONIC and phonegap application",
+  "devDependencies": {},
+  "keywords": [
+    "Camerakit"
+  ],
+  "license": "ISC",
+  "main": "index.js",
+  "name": "camerakitplugin",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.0"
+}

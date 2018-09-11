@@ -1,0 +1,20 @@
+page-home {
+.back{
+    background: white;
+}
+.img-class {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 10px;
+    height: 10px;
+    display: block;
+}
+.img-class-placeholder{
+    position: absolute;
+    top: 13%;
+    left: 25%;
+    display: block; 
+}
+}

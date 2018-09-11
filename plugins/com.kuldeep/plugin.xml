@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='utf-8'?>
+<plugin id="com.kuldeep" version="0.0.1" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
+<name>CamerakitPlugin</name>
+<js-module name="CamerakitPlugin" src="www/CamerakitPlugin.js">
+<clobbers target="CamerakitPlugin" />
+</js-module><platform name="android">
+    <framework src="plugin.gradle" custom="true" type="gradleReference" />
+<config-file parent="/*" target="res/xml/config.xml">
+<feature name="CamerakitPlugin">
+<param name="android-package" value="com.kuldeep.camerakitplugin.CamerakitPlugin" />
+</feature>
+</config-file>
+<config-file target="AndroidManifest.xml" parent="/manifest/application">
+   <uses-permission android:name="android.permission.FLASHLIGHT"></uses-permission>
+   <uses-permission android:name="android.permission.CAMERA"></uses-permission>
+   <uses-feature android:name="android.hardware.camera" />
+   <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+   <uses-permission android:name="android.permission.RECORD_AUDIO" />
+   <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+   <uses-feature android:name="android.hardware.location.gps" />
+   <uses-feature android:name="android.hardware.camera.flash" />
+  <activity android:largeHeap="true" android:name="com.kuldeep.camerakitplugin.CameraActivity" android:theme="@style/Theme.AppCompat" />
+     <activity android:largeHeap="true" android:name="com.kuldeep.camerakitplugin.PreviewActivity" android:theme="@style/Theme.AppCompat" />
+      
+</config-file>
+
+        <source-file src="src/android/java/CamerakitPlugin.java" target-dir="src/com/kuldeep/camerakitplugin/CamerakitPlugin" />
+        <source-file src="src/android/java/CameraActivity.java" target-dir="src/com/kuldeep/camerakitplugin/CameraActivity" />
+        <source-file src="src/android/java/CameraControls.java" target-dir="src/com/kuldeep/camerakitplugin/CameraActivity" />
+        <source-file src="src/android/java/AutoUnfocusEditText.java" target-dir="src/com/kuldeep/camerakitplugin/CameraActivity" />
+        <source-file src="src/android/java/PreviewActivity.java" target-dir="src/com/kuldeep/camerakitplugin/CameraActivity" />
+        <source-file src="src/android/java/ResultHolder.java" target-dir="src/com/kuldeep/camerakitplugin/CameraActivity" />
+        
+
+        <source-file src="src/android/res/layout/activity_main.xml" target-dir="res/layout"/>
+        <source-file src="src/android/res/layout/camera_controls.xml" target-dir="res/layout"/>
+        <source-file src="src/android/res/layout/activity_preview.xml" target-dir="res/layout"/>
+        <source-file src="src/android/res/layout/drawer_list_item.xml" target-dir="res/layout"/>
+
+        <source-file src="src/android/res/drawable/capture_button.xml" target-dir="res/drawable"/>
+        <source-file src="src/android/res/drawable/ic_about.xml" target-dir="res/drawable"/>
+        <source-file src="src/android/res/drawable/ic_facing_back.xml" target-dir="res/drawable"/>
+        <source-file src="src/android/res/drawable/ic_facing_front.xml" target-dir="res/drawable"/>
+        <source-file src="src/android/res/drawable/ic_flash_auto.xml" target-dir="res/drawable"/>
+        
+        <source-file src="src/android/res/drawable/ic_flash_off.xml" target-dir="res/drawable"/>
+        <source-file src="src/android/res/drawable/ic_flash_on.xml" target-dir="res/drawable"/>
+        <source-file src="src/android/res/drawable/ic_photo.xml" target-dir="res/drawable"/>
+        <source-file src="src/android/res/drawable/ic_switch.xml" target-dir="res/drawable"/>
+        <source-file src="src/android/res/drawable/ic_video.xml" target-dir="res/drawable"/>
+        <source-file src="src/android/res/drawable/launch_bg.xml" target-dir="res/drawable"/>
+        <source-file src="src/android/res/drawable/logo.xml" target-dir="res/drawable"/>
+        <source-file src="src/android/res/drawable/logomark.xml" target-dir="res/drawable"/>
+
+ <source-file src="src/android/res/drawable/ic_cancel.xml" target-dir="res/drawable"/>
+        <source-file src="src/android/res/drawable/ic_check_box.xml" target-dir="res/drawable"/>
+       
+        <source-file src="src/android/res/values/attr.xml" target-dir="res/values"/>
+        <source-file src="src/android/res/values/colors.xml" target-dir="res/values"/>
+        <source-file src="src/android/res/values/strings.xml" target-dir="res/values"/>
+        <source-file src="src/android/res/values/styles.xml" target-dir="res/values"/>
+
+
+
+</platform>
+</plugin>
